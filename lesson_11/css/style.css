@@ -1,0 +1,93 @@
+
+@import url(https://fonts.googleapis.com/css?family=Epilogue:400,800);
+@import url("reset.css");
+@import url("fonts.css"); 
+
+.wrapper {margin: 0 auto;
+max-width: 1500px;
+
+}
+h1 {font-family: Epilogue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;}
+/*............. Task 1 .....................*/
+.task_1 {position: relative;}
+    
+    
+    
+.shape_top {position: absolute; 
+    left: 85px; top: 350px;}
+
+    .shape_bottom {position: relative;
+    left: 380px; top: -20px;}
+
+.oval_center{
+    position: absolute; 
+    z-index: -3;  
+    left: 26%; top: 20%;
+    width: 370px;
+}
+
+.task_1 {
+    position: relative;
+    background-color:#28293E;z-index: -1; 
+    max-width: 750px;
+    margin: 10px;
+}
+
+ .oval {position: absolute;     
+    left: 400px; top: 45px;}
+  .stars {position: absolute;     
+        left: 435px; top: 68px;}
+
+/*........................ Task 2.................... */
+        
+   .laptop {position: relative; left: 120px; top: 40px;
+}  
+.shape_laptop {position: absolute; left: 100px; top:10px; z-index: -2;
+} 
+.path_shadow {position: absolute;
+left: 530px; top: 90px;}
+
+.block {position: absolute; left: 150px; top: 440px;}
+.girl_image {
+    position: relative; 
+    left: 420px; top: -60px;}    
+
+.task_2 {
+        width: 448 px;
+        position: relative;
+        z-index: -1;
+         }
+
+
+
+.button p {position: absolute;
+top: 390px;
+left: 40px;
+color: #391400;
+
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height:200%;
+border-radius: 20px;
+background-color: #FFF;
+padding: 5px 15px 2px 15px;
+
+}
+.title p {
+position: absolute;
+left: 40px; top: 460px;
+color:  #FFF;
+
+font-family: Epilogue;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 120% ;
+}
+
+
